@@ -63,7 +63,7 @@ var Add = () => {
   }
 
  const postData = () => {
-  axios.post('http://meme-x.herokuapp.com/memes', {
+  axios.post('https://meme-x.herokuapp.com/memes', {
     name : name,
     caption : caption,
     url : url    

@@ -15,7 +15,7 @@ const Home = () => {
     useEffect(() => {
       const fetchPosts = async () => {
         setLoading(true);
-        const res = await axios.get('http://meme-x.herokuapp.com/memes');
+        const res = await axios.get('https://meme-x.herokuapp.com/memes');
         setPosts(res.data);
         setLoading(false);
       };
